@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.9.x
+  - 1.10.x
+  - 1.11.x
+
+script:
+  - go build ./...
+  - go install github.com/aman-bansal/go_perf_tracker
